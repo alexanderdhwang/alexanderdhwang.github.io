@@ -62,6 +62,9 @@ Literacy: the ability to read and write.
 Further readings: [*Introduction to Algorithms*](https://mitpress.mit.edu/books/introduction-algorithms-third-edition), [*Algorithms in C++* (part 1-4)](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882), [*Algorithms in C++* (part 5)](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183).
 
 #### 10.2 Making Variable Declarations Easy
+
+Explicitly declarations are better than implicitly declarations.
+
 #### 10.3 Guidelines for Initializing Variables
 #### 10.4 Scope
 #### 10.5 Persistence
