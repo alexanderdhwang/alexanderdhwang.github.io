@@ -63,7 +63,7 @@ Further readings: [*Introduction to Algorithms*](https://mitpress.mit.edu/books/
 
 #### 10.2 Making Variable Declarations Easy
 
-Explicitly declarations are better than implicitly declarations.
+Explicit declarations are better than implicit declarations.
 
 #### 10.3 Guidelines for Initializing Variables
 #### 10.4 Scope
