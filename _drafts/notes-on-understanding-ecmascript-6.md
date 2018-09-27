@@ -36,6 +36,30 @@ function foo(condition) {
 }
 ```
 
+### Block-Level Declarations
+
+#### The Temporal Dead Zone
+
+The *temporal dead zone* (TDZ) is used to describe why `let` and `const` bindings are not accessible before their declaration.
+
+```javascript
+if (condition) {
+    console.log(typeof value); // throws an error
+    let value = "blue";
+}
+```
+
+```javascript
+if (condition) {
+    console.log(typeof value); // undefined
+    var value = "blue";
+}
+```
+
+When the JavaScript engine meet a new block, it first moves all bindings declared with `let` or `const` into the TDZ, and when the execution flows to a `let` or `const` declaration the engine will remove that binding out from the TDZ. Any attemption to access bindings in the TDZ would throw an error.
+
+This is a very technical aspect of the block-scoping.
+
 ## Chapter 2: Strings and Regular Expressions
 ## Chapter 3: Functions
 ## Chapter 4: Expanded Object Functionality
