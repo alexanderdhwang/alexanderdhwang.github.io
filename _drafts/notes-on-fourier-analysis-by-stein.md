@@ -12,6 +12,9 @@ Notes on *Fourier Analysis: An Introduction* written by Elias Stein & Rami Shaka
 {% include toc %}
 
 ## Chapter 1. The Genesis of Fourier Analysis
+
+Two distinct physical phenomena lead to the development of Fourier series: vibrating string and heat flow.
+
 ## Chapter 2. Basic Properties of Fourier Series
 ## Chapter 3. Convergence of Fourier Series
 ## Chapter 4. Some Applications of Fourier Series
