@@ -56,7 +56,7 @@ if (condition) {
 }
 ```
 
-When the JavaScript engine meet a new block, it first moves all bindings declared with `let` or `const` into the TDZ, and when the execution flows to a `let` or `const` declaration the engine will remove that binding out from the TDZ. Any attemption to access bindings in the TDZ would throw an error.
+When the JavaScript engine meet a new block, it first moves all bindings declared with `let` or `const` into the TDZ, and when the execution flows to a `let` or `const` declaration the engine will remove this binding from the TDZ. Any attemption to access bindings in the TDZ would throw an error.
 
 This is a very technical aspect of the block-scoping.
 
