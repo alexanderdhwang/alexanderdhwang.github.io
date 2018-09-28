@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Notes on Code Complete, 2nd ed"
+date: 2018-09-28 22:49 +0800
 categories: 
   - Book Notes
 tags: software-engineering
